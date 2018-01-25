@@ -1,0 +1,24 @@
+* {
+  padding: 5px;
+  background-image: url(../images/doodles.png);
+  /* background-size: contain; */
+}
+
+h1{
+  font-family: 'Alfa Slab One', cursive;
+  background-color: #FFF;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-family: 'Gentium Book Basic', serif;
+}
+
+
+img{
+  max-width: 250px;
+  height: auto;
+}
