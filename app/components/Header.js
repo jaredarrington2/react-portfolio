@@ -7,20 +7,23 @@ export default class Header extends Component {
     this.state = {
     };
   }
-  render() {
-    return (
-      <div>
-      <nav>
-          <div className="nav-wrapper">
-            <a href="#" className="brand-logo right">Logo</a>
-            <ul id="nav-mobile" className="left hide-on-med-and-down">
-              <li><a href="sass.html">Sass</a></li>
-              <li><a href="badges.html">Components</a></li>
-              <li><a href="collapsible.html">JavaScript</a></li>
-            </ul>
-          </div>
-        </nav>
+
+
+
+render() {
+  const jumbotronStyle = {
+    paddingBottom: '150px',
+    boxShadow: "0px 0px 0px 0px rgba(0,0,0,0)"
+  }
+  return (
+    <div className="container z-depth-5">
+      <div className="card-panel blue darken-4" style={jumbotronStyle}>
+        <div className="container blue darken-4">
+          <h1>Jared Arrington</h1>
+          <h2>Web Breaker  Noise Maker  Earth Shaker</h2>
         </div>
-      );
-      }
-    };
+       </div>
+     </div>
+  );
+}
+}

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+var Link = require("react-router-dom").Link;
 
 //exporting this component to be used somewhere  else
 export default class Gallery extends Component {
@@ -14,13 +15,13 @@ export default class Gallery extends Component {
       <div className="container">
         <div className="row">
           <div className="col s12 m8">
-            <div className="card">
+            <div className="card blue darken-4">
               <div className="card-image">
                 <img src="../../public/images/image.JPEG"></img>
                 <span className="card-title">Card Title</span>
               </div>
               <div className="card-content">
-                <p>Card text goes here</p>
+                <Link to="/profile"><p>Profile Page</p></Link>
               </div>
               <div className="card-action">
                 <a href="#">This is a link</a>
@@ -30,7 +31,7 @@ export default class Gallery extends Component {
         </div>
         <div className="row">
           <div className="col s12 m8">
-            <div className="card">
+            <div className="card blue darken-4">
               <div className="card-image">
                 <img src="./public/images/image.JPEG"></img>
                 <span className="card-title">Card Title</span>

@@ -1,4 +1,4 @@
-* {
+body {
   padding: 5px;
   background-image: url(../images/doodles.png);
   /* background-size: contain; */
@@ -6,7 +6,18 @@
 
 h1{
   font-family: 'Alfa Slab One', cursive;
-  background-color: #FFF;
+  color: #FFF;
+}
+
+h2{
+  font-family: 'Gentium Book Basic', serif;
+  color: #FFF;
+}
+p{
+  font-family: 'Gentium Book Basic', serif;
+}
+a{
+  font-family: 'Gentium Book Basic', serif;
 }
 
 footer {
