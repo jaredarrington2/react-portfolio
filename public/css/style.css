@@ -7,17 +7,31 @@ body {
 h1{
   font-family: 'Alfa Slab One', cursive;
   color: #FFF;
+  font-size: 3vw;
+}
+
+.container{
+  width: 100%;
+}
+
+.blackh1{
+  color: #000;
 }
 
 h2{
   font-family: 'Gentium Book Basic', serif;
   color: #FFF;
+  font-size: 2vw;
 }
 p{
   font-family: 'Gentium Book Basic', serif;
 }
 a{
   font-family: 'Gentium Book Basic', serif;
+}
+
+form{
+  background-color: #FFF;
 }
 
 footer {
@@ -30,6 +44,6 @@ footer {
 
 
 img{
-  max-width: 250px;
+  max-width: 100%;
   height: auto;
 }

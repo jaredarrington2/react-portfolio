@@ -18,7 +18,7 @@ export default class Header extends Component {
               <li><a href="badges.html">Marketing</a></li>
               <li><a href="collapsible.html">Web Development</a></li>
               <li><a href="/Blog">Blog</a></li>
-              <li><a href="collapsible.html">Contact</a></li>
+              <li><a href="/Contact">Contact</a></li>
             </ul>
           </div>
         </nav>

@@ -8,6 +8,7 @@ import { Switch, Route } from "react-router-dom";
 
 import Home from "./components/Home";
 import Blog from "./components/Blog";
+import Contact from "./components/Contact";
 
 /*
 	this is where your routes are setup
@@ -17,5 +18,6 @@ export default (
   	<Switch>
     	<Route exact path="/" component={Home} />
       <Route path="/blog" component={Blog} />
+      <Route path="/contact" component={Contact} />
     </Switch>
 );

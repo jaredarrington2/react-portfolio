@@ -12,15 +12,17 @@ export default class Home extends Component {
     return (
 
       <div className="container">
-      <Navigation/>
+        <Navigation/>
         <div className="container">
           <Header/>
         </div>
-        <div className="container">
-          <div className="row">
-            <Gallery/>
-          </div>
-        </div>
+        {
+        // <div className="container">
+        //   <div className="row">
+        //     <Gallery/>
+        //   </div>
+        // </div>
+      }
         {// <div>
         //   <Footer/>
         // </div>
